@@ -8,6 +8,7 @@ authors:
     given-names: Brian Scott
 repository-code: "https://github.com/gringomxmusic-byte/FM-REG-01"
 license: MIT
+doi: "10.5281/zenodo.23244957"
 keywords:
   - fracture mechanics
   - J-integral

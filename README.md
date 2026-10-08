@@ -1,5 +1,7 @@
 # FM-REG-01: mirror-symmetry decomposition of the crack-tip J-integral
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23244957.svg)](https://doi.org/10.5281/zenodo.23244957)
+
 Run `python verify_fm_reg_01.py`: **21/21 checks pass.** Needs NumPy only.
 
 The model uses exact Williams near-tip fields (linear elastic, plane strain plus antiplane), the mirror operator
@@ -26,3 +28,7 @@ results.
 **Scope:** this covers the analytic singular fields only. Applying it to real parts needs computed K values
 (FEM or a handbook) plus fracture toughness K_IC from testing, and it does not predict exact failure times or
 atoms.
+
+
+## How to cite
+Politzer, B. S. (2026). *FM-REG-01: Mirror-symmetry decomposition of the crack-tip J-integral* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23244957
