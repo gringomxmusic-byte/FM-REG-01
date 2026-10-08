@@ -1,0 +1,40 @@
+{
+  "governance_root": "RTC-114C-5202",
+  "registry_module": "FM-REG-01",
+  "component": "Fracture Mechanics Tensor Field & Mirror-Symmetry Integration",
+  "operator": "Brian Scott Politzer",
+  "status": "DEMONSTRATED (analytic fields, linear elastic)",
+  "specifications": {
+    "coordinate_transform": {
+      "physical_reflection_operator": "Ma(x) = R a(Rx)",
+      "reflection_matrix": "R = diag(1, -1, 1)  [CORRECTED: reflection across the crack plane x2=0; diag(-1,1,1) puts all J in the cross term]"
+    },
+    "tensor_field_symmetry": {
+      "projection": "P_pm = (I pm M)/2",
+      "parity_rules": {
+        "mode_I_opening": "even (+)",
+        "mode_II_sliding": "odd (-)",
+        "mode_III_tearing": "odd (-)"
+      }
+    },
+    "energy_release_rate": {
+      "J_plus": "K_I^2 / E'",
+      "J_minus": "K_II^2 / E' + K_III^2 / (2 mu)",
+      "cross_term": "0",
+      "E_prime": "E/(1-nu^2) plane strain"
+    },
+    "removed": [
+      "periodic wrapping (-x) mod N: not needed for continuum fields",
+      "Mark 27 tridiagonal dissipation bound: no defined connection to the J-integral"
+    ]
+  },
+  "evidence": {
+    "checks": "21/21 PASS",
+    "file_sha256": {
+      "fm_reg_01.py": "84def3a7f2e80e98b7459fe35a6ef95c8e3674103c6dc23eb68e8b0659029af3",
+      "verify_fm_reg_01.py": "c24d921286c187a87e44e12edf0e6ee96b887399d80ba3123c445e5cd7de190c",
+      "fm_reg_01_results.json": "346cfbb8f1d8960f213da1c37cb05a55a59ab11dd5b23f31f26ffaa247203339"
+    }
+  },
+  "receipt_sha256": "1e9f50807718e0a7f013d40379795fd8b2ece856cf197155a620f3b95da2f0a5"
+}

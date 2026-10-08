@@ -1,0 +1,103 @@
+{
+ "checks": {
+  "pure_I: J total matches": true,
+  "pure_I: J+ = K_I^2/E' (correct R)": true,
+  "pure_I: J- = K_II^2/E'+K_III^2/2mu (correct R)": true,
+  "pure_I: cross term = 0 (correct R)": true,
+  "pure_II: J total matches": true,
+  "pure_II: J+ = K_I^2/E' (correct R)": true,
+  "pure_II: J- = K_II^2/E'+K_III^2/2mu (correct R)": true,
+  "pure_II: cross term = 0 (correct R)": true,
+  "pure_III: J total matches": true,
+  "pure_III: J+ = K_I^2/E' (correct R)": true,
+  "pure_III: J- = K_II^2/E'+K_III^2/2mu (correct R)": true,
+  "pure_III: cross term = 0 (correct R)": true,
+  "mixed: J total matches": true,
+  "mixed: J+ = K_I^2/E' (correct R)": true,
+  "mixed: J- = K_II^2/E'+K_III^2/2mu (correct R)": true,
+  "mixed: cross term = 0 (correct R)": true,
+  "path independence (3 radii)": true,
+  "parity: mode I even": true,
+  "parity: mode II odd": true,
+  "parity: mode III odd": true,
+  "spec axis diag(-1,1,1) does NOT give J+ = K_I^2/E'": true
+ },
+ "results": {
+  "pure_I": {
+   "theory": {
+    "J": 4095.0,
+    "J_plus": 4095.0,
+    "J_minus": 0.0
+   },
+   "R_crack_plane": {
+    "J": 4095.000001941628,
+    "J_plus": 4095.000001941628,
+    "J_minus": 0.0,
+    "cross": 0.0
+   },
+   "R_spec_diag(-1,1,1)": {
+    "J": 4095.000001941628,
+    "J_plus": -1.707036740589273e-08,
+    "J_minus": -9.725906328980331e-08,
+    "cross": 4095.0000020559573
+   }
+  },
+  "pure_II": {
+   "theory": {
+    "J": 1820.0,
+    "J_plus": 0.0,
+    "J_minus": 1820.0
+   },
+   "R_crack_plane": {
+    "J": 1820.000000989179,
+    "J_plus": 0.0,
+    "J_minus": 1820.000000989179,
+    "cross": 0.0
+   },
+   "R_spec_diag(-1,1,1)": {
+    "J": 1820.000000989179,
+    "J_plus": 1.2244151508342908e-08,
+    "J_minus": -5.239652931433211e-09,
+    "cross": 1820.0000009821745
+   }
+  },
+  "pure_III": {
+   "theory": {
+    "J": 1462.5,
+    "J_plus": 0.0,
+    "J_minus": 1462.5
+   },
+   "R_crack_plane": {
+    "J": 1462.5000006087134,
+    "J_plus": 0.0,
+    "J_minus": 1462.5000006087134,
+    "cross": 0.0
+   },
+   "R_spec_diag(-1,1,1)": {
+    "J": 1462.5000006087134,
+    "J_plus": -1.6220076506848174e-08,
+    "J_minus": -1.1880696413671303e-09,
+    "cross": 1462.5000006261216
+   }
+  },
+  "mixed": {
+   "theory": {
+    "J": 7377.5,
+    "J_plus": 4095.0,
+    "J_minus": 3282.5
+   },
+   "R_crack_plane": {
+    "J": 7377.500003472306,
+    "J_plus": 4095.000001969284,
+    "J_minus": 3282.5000015608493,
+    "cross": -5.782703738077544e-08
+   },
+   "R_spec_diag(-1,1,1)": {
+    "J": 7377.500003472306,
+    "J_plus": -7.440387775272999e-08,
+    "J_minus": -1.3613006529849008e-07,
+    "cross": 7377.5000036828405
+   }
+  }
+ }
+}
