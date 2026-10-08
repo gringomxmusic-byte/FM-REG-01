@@ -30,5 +30,19 @@ results.
 atoms.
 
 
+## Prior work
+The mirror (symmetric/antisymmetric) decomposition of the J-integral into mode contributions is established
+in the fracture-mechanics literature. This repository is an independent, open, test-verified implementation
+of it, not a claim of a new method.
+
+- H. Ishikawa, H. Kitagawa, H. Okamura (1979). *J integral of a mixed mode crack and its application.*
+  Proc. 3rd Int. Conf. on Mechanical Behaviour of Materials (ICM3), Cambridge.
+- O. Huber, J. Nickel, G. Kuhn (1993). *On the decomposition of the J-integral for 3D crack problems.*
+  International Journal of Fracture 64, 339–348. https://doi.org/10.1007/BF00017849
+
+**What this repository adds:** exact Williams-field verification of J₊ = K_I²/E′ and J₋ = K_II²/E′ + K_III²/2μ,
+zero cross-coupling, path independence, and a negative test showing that reflecting along the crack direction
+instead of across the crack plane sends all of J into the cross term (21/21 checks).
+
 ## How to cite
 Politzer, B. S. (2026). *FM-REG-01: Mirror-symmetry decomposition of the crack-tip J-integral* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23244957
