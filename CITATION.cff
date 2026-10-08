@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "FM-REG-01: Mirror-symmetry decomposition of the crack-tip J-integral"
+version: 1.0.0
+date-released: 2026-10-08
+authors:
+  - family-names: Politzer
+    given-names: Brian Scott
+repository-code: "https://github.com/gringomxmusic-byte/FM-REG-01"
+license: MIT
+keywords:
+  - fracture mechanics
+  - J-integral
+  - mixed-mode fracture
+  - mirror symmetry
+  - Williams expansion
+abstract: >-
+  Numerical verification that the mirror operator (Ma)(x) = R a(Rx), with
+  R = diag(1,-1,1) reflecting across the crack plane, splits the J-integral of
+  exact Williams near-tip fields into a mirror-even part K_I^2/E' and a
+  mirror-odd part K_II^2/E' + K_III^2/(2 mu), with zero cross-coupling and
+  path independence (21/21 checks).
